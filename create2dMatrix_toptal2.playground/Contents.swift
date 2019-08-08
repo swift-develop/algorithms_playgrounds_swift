@@ -1,4 +1,5 @@
-import UIKit
+import Foundation
+import XCTest
 
 var str = "Hello, playground"
 
@@ -18,16 +19,15 @@ func returnMatrix ( _ U: Int, _ L: Int, _ C: [Int] ) -> String {
         let element = num.element
         let offset = num.offset
         //print( element )
+        
+        D.append( 0 )
         if element == 2 {
             C[offset] = 1
-            D.append( 1 )
+            D[offset] += 1
             upperValue += 1
             lowerValue += 1
         } else if element == 1 {
             upperValue += 1
-            D.append( 0 )
-        } else {
-            D.append( 0 )
         }
     }
 
@@ -43,11 +43,7 @@ func returnMatrix ( _ U: Int, _ L: Int, _ C: [Int] ) -> String {
         }
     }
     
-    let temp1 = C.map { String( $0 ) }.joined() + ", " + D.map { String( $0 ) }.joined()
-    
-
-    
-    return temp1
+    return C.map { String( $0 ) }.joined() + "," + D.map { String( $0 ) }.joined()
 }
 
 let U = 3
@@ -62,7 +58,7 @@ let closure = {
 import XCTest
 class BenchMakrTest: XCTestCase {
 
-    let interations = 1000
+    let interations = 1
     
     func test1() {
         measure {
