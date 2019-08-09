@@ -87,5 +87,4 @@ class BenchMakrTest: XCTestCase {
     }
 }
 
-
 BenchMakrTest.defaultTestSuite.run()
