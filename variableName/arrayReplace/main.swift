@@ -9,35 +9,63 @@
 import Foundation
 
 class Solution {
-
-func arrayReplace(inputArray: [Int], elemToReplace: Int, substitutionElem: Int) -> [Int] {
     
-    var r = inputArray
-    for (i,e) in r.enumerated() {
-        if e == elemToReplace {
-            r[i] = substitutionElem
+    
+    func variableName_regex(name: String) -> Bool {
+    
+        if let test = name.range(of: #"\D\w*"#, options: .regularExpression), name[test].count == name.count {
+
+            
+//
+////          print( type(of: name ))
+//
+////          let result = name[test]
+//
+//            print( result )
+//
+//            print( result.count == name.count  )
+//
+//            print( type(of: test ))
+//
+//            if result.count == name.count { return true }
+            return true
         }
         
+        
+        
+        
+        return false
     }
     
-    return r
+ 
 }
 
-func arrayReplace_map(inputArray: [Int], elemToReplace: Int, substitutionElem: Int) -> [Int]
-{
-    return inputArray.map{$0 == elemToReplace ? substitutionElem : $0 }
-}
+print( Solution().variableName(name:"_Aas_23") )
+
+
+
+func variableName(name: String) -> Bool {
     
+    if let test = name.range(of: #"\D\w*"#, options: .regularExpression), name[test].count == name.count {
+        
+        
+        //
+        ////          print( type(of: name ))
+        //
+        ////          let result = name[test]
+        //
+        //            print( result )
+        //
+        //            print( result.count == name.count  )
+        //
+        //            print( type(of: test ))
+        //
+        //            if result.count == name.count { return true }
+        return true
+    }
+    
+    
+    
+    
+    return false
 }
-
-
-
-
-
-//let sample = [1, 2, 1]
-//let a = 1
-//let b = 3
-//
-//let r = arrayReplace(inputArray: sample, elemToReplace: a, substitutionElem: b)
-//
-//print( r )
