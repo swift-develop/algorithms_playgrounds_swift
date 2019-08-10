@@ -29,28 +29,20 @@ import Foundation
 //}
 public func solution(_ A : inout [Int]) -> Int {
     
-        var head = A.first!
-        var tail = A.dropFirst().reduce(0) { $0 + $1 }
-        var min = abs( head - tail )
+    guard A.count <= 100000 else { return 0 }
     
-        for i in 1..<A.count-1 {
-            
-            let val = A[i]
-            head += val
-            tail -= val
-            let sum = abs( head - tail )
-            
-            if sum < min { min = sum }
-        }
-    
-    
-        return min
+    var e = 1
+    for a in A.sorted() {
+        if a != e { return 0}
+        e += 1
+    }
+    return 1
 }
     
 
 
 
-var A : [Int] = [3,1,2,4,3]
+var A : [Int] = [1]
 
 let r = solution(&A)
 
