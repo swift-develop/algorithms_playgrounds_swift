@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C337165022FF89CA00C081AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337164F22FF89CA00C081AF /* main.swift */; };
+		C33716632300CE5200C081AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33716622300CE5200C081AF /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C337164A22FF89CA00C081AF /* CopyFiles */ = {
+		C337165D2300CE5200C081AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C337164C22FF89CA00C081AF /* chessBoardCellColor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chessBoardCellColor; sourceTree = BUILT_PRODUCTS_DIR; };
-		C337164F22FF89CA00C081AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C337165F2300CE5200C081AF /* chessBoardCellColor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chessBoardCellColor; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33716622300CE5200C081AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C337164922FF89CA00C081AF /* Frameworks */ = {
+		C337165C2300CE5200C081AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C337164322FF89CA00C081AF = {
+		C33716562300CE5200C081AF = {
 			isa = PBXGroup;
 			children = (
-				C337164E22FF89CA00C081AF /* chessBoardCellColor */,
-				C337164D22FF89CA00C081AF /* Products */,
+				C33716612300CE5200C081AF /* chessBoardCellColor */,
+				C33716602300CE5200C081AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C337164D22FF89CA00C081AF /* Products */ = {
+		C33716602300CE5200C081AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C337164C22FF89CA00C081AF /* chessBoardCellColor */,
+				C337165F2300CE5200C081AF /* chessBoardCellColor */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C337164E22FF89CA00C081AF /* chessBoardCellColor */ = {
+		C33716612300CE5200C081AF /* chessBoardCellColor */ = {
 			isa = PBXGroup;
 			children = (
-				C337164F22FF89CA00C081AF /* main.swift */,
+				C33716622300CE5200C081AF /* main.swift */,
 			);
 			path = chessBoardCellColor;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C337164B22FF89CA00C081AF /* chessBoardCellColor */ = {
+		C337165E2300CE5200C081AF /* chessBoardCellColor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C337165322FF89CA00C081AF /* Build configuration list for PBXNativeTarget "chessBoardCellColor" */;
+			buildConfigurationList = C33716662300CE5200C081AF /* Build configuration list for PBXNativeTarget "chessBoardCellColor" */;
 			buildPhases = (
-				C337164822FF89CA00C081AF /* Sources */,
-				C337164922FF89CA00C081AF /* Frameworks */,
-				C337164A22FF89CA00C081AF /* CopyFiles */,
+				C337165B2300CE5200C081AF /* Sources */,
+				C337165C2300CE5200C081AF /* Frameworks */,
+				C337165D2300CE5200C081AF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,54 +79,54 @@
 			);
 			name = chessBoardCellColor;
 			productName = chessBoardCellColor;
-			productReference = C337164C22FF89CA00C081AF /* chessBoardCellColor */;
+			productReference = C337165F2300CE5200C081AF /* chessBoardCellColor */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C337164422FF89CA00C081AF /* Project object */ = {
+		C33716572300CE5200C081AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Tom Grant";
 				TargetAttributes = {
-					C337164B22FF89CA00C081AF = {
+					C337165E2300CE5200C081AF = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = C337164722FF89CA00C081AF /* Build configuration list for PBXProject "chessBoardCellColor" */;
+			buildConfigurationList = C337165A2300CE5200C081AF /* Build configuration list for PBXProject "chessBoardCellColor" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C337164322FF89CA00C081AF;
-			productRefGroup = C337164D22FF89CA00C081AF /* Products */;
+			mainGroup = C33716562300CE5200C081AF;
+			productRefGroup = C33716602300CE5200C081AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C337164B22FF89CA00C081AF /* chessBoardCellColor */,
+				C337165E2300CE5200C081AF /* chessBoardCellColor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C337164822FF89CA00C081AF /* Sources */ = {
+		C337165B2300CE5200C081AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C337165022FF89CA00C081AF /* main.swift in Sources */,
+				C33716632300CE5200C081AF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C337165122FF89CA00C081AF /* Debug */ = {
+		C33716642300CE5200C081AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		C337165222FF89CA00C081AF /* Release */ = {
+		C33716652300CE5200C081AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		C337165422FF89CA00C081AF /* Debug */ = {
+		C33716672300CE5200C081AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		C337165522FF89CA00C081AF /* Release */ = {
+		C33716682300CE5200C081AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,25 +264,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C337164722FF89CA00C081AF /* Build configuration list for PBXProject "chessBoardCellColor" */ = {
+		C337165A2300CE5200C081AF /* Build configuration list for PBXProject "chessBoardCellColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C337165122FF89CA00C081AF /* Debug */,
-				C337165222FF89CA00C081AF /* Release */,
+				C33716642300CE5200C081AF /* Debug */,
+				C33716652300CE5200C081AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C337165322FF89CA00C081AF /* Build configuration list for PBXNativeTarget "chessBoardCellColor" */ = {
+		C33716662300CE5200C081AF /* Build configuration list for PBXNativeTarget "chessBoardCellColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C337165422FF89CA00C081AF /* Debug */,
-				C337165522FF89CA00C081AF /* Release */,
+				C33716672300CE5200C081AF /* Debug */,
+				C33716682300CE5200C081AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C337164422FF89CA00C081AF /* Project object */;
+	rootObject = C33716572300CE5200C081AF /* Project object */;
 }
