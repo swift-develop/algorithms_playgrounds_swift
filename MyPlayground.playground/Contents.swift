@@ -1,3 +1,17 @@
 import UIKit
 
-var str = "Hello, playground"
+
+var x : Set<Int> = []
+
+10
+10 + 50
+10 + 50 + 100
+
+
+50
+50 + 10
+50 + 10 + 50
+
+100
+100 + 10
+100 + 10 + 50
