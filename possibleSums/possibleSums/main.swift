@@ -39,12 +39,13 @@ import Foundation
 //}
 
 func possibleSums(coins: [Int], quantity: [Int]) -> Int {
+    
     var sums = Set([0])
-
     for i in 0..<coins.count {
         
         print("sums", sums )
         for s in sums {
+            
             var c = s + coins[i]
             for _ in 0..<quantity[i] {
                 
