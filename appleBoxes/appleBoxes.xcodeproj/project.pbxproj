@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3B3A967232AF213004D4250 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B3A966232AF213004D4250 /* main.swift */; };
+		C3DC8590232C3DFF00A7ED3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC858F232C3DFF00A7ED3A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C3B3A961232AF213004D4250 /* CopyFiles */ = {
+		C3DC858A232C3DFF00A7ED3A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C3B3A963232AF213004D4250 /* appleBoxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appleBoxes; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3B3A966232AF213004D4250 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C3DC858C232C3DFF00A7ED3A /* appleBoxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appleBoxes; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DC858F232C3DFF00A7ED3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3B3A960232AF213004D4250 /* Frameworks */ = {
+		C3DC8589232C3DFF00A7ED3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C3B3A95A232AF213004D4250 = {
+		C3DC8583232C3DFF00A7ED3A = {
 			isa = PBXGroup;
 			children = (
-				C3B3A965232AF213004D4250 /* appleBoxes */,
-				C3B3A964232AF213004D4250 /* Products */,
+				C3DC858E232C3DFF00A7ED3A /* appleBoxes */,
+				C3DC858D232C3DFF00A7ED3A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C3B3A964232AF213004D4250 /* Products */ = {
+		C3DC858D232C3DFF00A7ED3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3B3A963232AF213004D4250 /* appleBoxes */,
+				C3DC858C232C3DFF00A7ED3A /* appleBoxes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3B3A965232AF213004D4250 /* appleBoxes */ = {
+		C3DC858E232C3DFF00A7ED3A /* appleBoxes */ = {
 			isa = PBXGroup;
 			children = (
-				C3B3A966232AF213004D4250 /* main.swift */,
+				C3DC858F232C3DFF00A7ED3A /* main.m */,
 			);
 			path = appleBoxes;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3B3A962232AF213004D4250 /* appleBoxes */ = {
+		C3DC858B232C3DFF00A7ED3A /* appleBoxes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3B3A96A232AF213004D4250 /* Build configuration list for PBXNativeTarget "appleBoxes" */;
+			buildConfigurationList = C3DC8593232C3DFF00A7ED3A /* Build configuration list for PBXNativeTarget "appleBoxes" */;
 			buildPhases = (
-				C3B3A95F232AF213004D4250 /* Sources */,
-				C3B3A960232AF213004D4250 /* Frameworks */,
-				C3B3A961232AF213004D4250 /* CopyFiles */,
+				C3DC8588232C3DFF00A7ED3A /* Sources */,
+				C3DC8589232C3DFF00A7ED3A /* Frameworks */,
+				C3DC858A232C3DFF00A7ED3A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,54 +79,53 @@
 			);
 			name = appleBoxes;
 			productName = appleBoxes;
-			productReference = C3B3A963232AF213004D4250 /* appleBoxes */;
+			productReference = C3DC858C232C3DFF00A7ED3A /* appleBoxes */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C3B3A95B232AF213004D4250 /* Project object */ = {
+		C3DC8584232C3DFF00A7ED3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Tom Grant";
 				TargetAttributes = {
-					C3B3A962232AF213004D4250 = {
+					C3DC858B232C3DFF00A7ED3A = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = C3B3A95E232AF213004D4250 /* Build configuration list for PBXProject "appleBoxes" */;
+			buildConfigurationList = C3DC8587232C3DFF00A7ED3A /* Build configuration list for PBXProject "appleBoxes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C3B3A95A232AF213004D4250;
-			productRefGroup = C3B3A964232AF213004D4250 /* Products */;
+			mainGroup = C3DC8583232C3DFF00A7ED3A;
+			productRefGroup = C3DC858D232C3DFF00A7ED3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3B3A962232AF213004D4250 /* appleBoxes */,
+				C3DC858B232C3DFF00A7ED3A /* appleBoxes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3B3A95F232AF213004D4250 /* Sources */ = {
+		C3DC8588232C3DFF00A7ED3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3B3A967232AF213004D4250 /* main.swift in Sources */,
+				C3DC8590232C3DFF00A7ED3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C3B3A968232AF213004D4250 /* Debug */ = {
+		C3DC8591232C3DFF00A7ED3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,17 +176,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C3B3A969232AF213004D4250 /* Release */ = {
+		C3DC8592232C3DFF00A7ED3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,57 +229,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		C3B3A96B232AF213004D4250 /* Debug */ = {
+		C3DC8594232C3DFF00A7ED3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9HWXFL59V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		C3B3A96C232AF213004D4250 /* Release */ = {
+		C3DC8595232C3DFF00A7ED3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9HWXFL59V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3B3A95E232AF213004D4250 /* Build configuration list for PBXProject "appleBoxes" */ = {
+		C3DC8587232C3DFF00A7ED3A /* Build configuration list for PBXProject "appleBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3B3A968232AF213004D4250 /* Debug */,
-				C3B3A969232AF213004D4250 /* Release */,
+				C3DC8591232C3DFF00A7ED3A /* Debug */,
+				C3DC8592232C3DFF00A7ED3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3B3A96A232AF213004D4250 /* Build configuration list for PBXNativeTarget "appleBoxes" */ = {
+		C3DC8593232C3DFF00A7ED3A /* Build configuration list for PBXNativeTarget "appleBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3B3A96B232AF213004D4250 /* Debug */,
-				C3B3A96C232AF213004D4250 /* Release */,
+				C3DC8594232C3DFF00A7ED3A /* Debug */,
+				C3DC8595232C3DFF00A7ED3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C3B3A95B232AF213004D4250 /* Project object */;
+	rootObject = C3DC8584232C3DFF00A7ED3A /* Project object */;
 }
