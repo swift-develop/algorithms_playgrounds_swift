@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3DC8590232C3DFF00A7ED3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC858F232C3DFF00A7ED3A /* main.m */; };
+		C3189D5923340ABA00A877D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3189D5823340ABA00A877D5 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C3DC858A232C3DFF00A7ED3A /* CopyFiles */ = {
+		C3189D5323340ABA00A877D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C3DC858C232C3DFF00A7ED3A /* appleBoxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appleBoxes; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3DC858F232C3DFF00A7ED3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3189D5523340ABA00A877D5 /* appleBoxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appleBoxes; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3189D5823340ABA00A877D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3DC8589232C3DFF00A7ED3A /* Frameworks */ = {
+		C3189D5223340ABA00A877D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C3DC8583232C3DFF00A7ED3A = {
+		C3189D4C23340ABA00A877D5 = {
 			isa = PBXGroup;
 			children = (
-				C3DC858E232C3DFF00A7ED3A /* appleBoxes */,
-				C3DC858D232C3DFF00A7ED3A /* Products */,
+				C3189D5723340ABA00A877D5 /* appleBoxes */,
+				C3189D5623340ABA00A877D5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C3DC858D232C3DFF00A7ED3A /* Products */ = {
+		C3189D5623340ABA00A877D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3DC858C232C3DFF00A7ED3A /* appleBoxes */,
+				C3189D5523340ABA00A877D5 /* appleBoxes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3DC858E232C3DFF00A7ED3A /* appleBoxes */ = {
+		C3189D5723340ABA00A877D5 /* appleBoxes */ = {
 			isa = PBXGroup;
 			children = (
-				C3DC858F232C3DFF00A7ED3A /* main.m */,
+				C3189D5823340ABA00A877D5 /* main.m */,
 			);
 			path = appleBoxes;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3DC858B232C3DFF00A7ED3A /* appleBoxes */ = {
+		C3189D5423340ABA00A877D5 /* appleBoxes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3DC8593232C3DFF00A7ED3A /* Build configuration list for PBXNativeTarget "appleBoxes" */;
+			buildConfigurationList = C3189D5C23340ABA00A877D5 /* Build configuration list for PBXNativeTarget "appleBoxes" */;
 			buildPhases = (
-				C3DC8588232C3DFF00A7ED3A /* Sources */,
-				C3DC8589232C3DFF00A7ED3A /* Frameworks */,
-				C3DC858A232C3DFF00A7ED3A /* CopyFiles */,
+				C3189D5123340ABA00A877D5 /* Sources */,
+				C3189D5223340ABA00A877D5 /* Frameworks */,
+				C3189D5323340ABA00A877D5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +79,54 @@
 			);
 			name = appleBoxes;
 			productName = appleBoxes;
-			productReference = C3DC858C232C3DFF00A7ED3A /* appleBoxes */;
+			productReference = C3189D5523340ABA00A877D5 /* appleBoxes */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C3DC8584232C3DFF00A7ED3A /* Project object */ = {
+		C3189D4D23340ABA00A877D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Tom Grant";
 				TargetAttributes = {
-					C3DC858B232C3DFF00A7ED3A = {
-						CreatedOnToolsVersion = 10.3;
+					C3189D5423340ABA00A877D5 = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = C3DC8587232C3DFF00A7ED3A /* Build configuration list for PBXProject "appleBoxes" */;
+			buildConfigurationList = C3189D5023340ABA00A877D5 /* Build configuration list for PBXProject "appleBoxes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = C3DC8583232C3DFF00A7ED3A;
-			productRefGroup = C3DC858D232C3DFF00A7ED3A /* Products */;
+			mainGroup = C3189D4C23340ABA00A877D5;
+			productRefGroup = C3189D5623340ABA00A877D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3DC858B232C3DFF00A7ED3A /* appleBoxes */,
+				C3189D5423340ABA00A877D5 /* appleBoxes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3DC8588232C3DFF00A7ED3A /* Sources */ = {
+		C3189D5123340ABA00A877D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DC8590232C3DFF00A7ED3A /* main.m in Sources */,
+				C3189D5923340ABA00A877D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C3DC8591232C3DFF00A7ED3A /* Debug */ = {
+		C3189D5A23340ABA00A877D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -157,7 +158,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		C3DC8592232C3DFF00A7ED3A /* Release */ = {
+		C3189D5B23340ABA00A877D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +216,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -236,20 +235,22 @@
 			};
 			name = Release;
 		};
-		C3DC8594232C3DFF00A7ED3A /* Debug */ = {
+		C3189D5D23340ABA00A877D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9HWXFL59V;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C3DC8595232C3DFF00A7ED3A /* Release */ = {
+		C3189D5E23340ABA00A877D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9HWXFL59V;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -257,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3DC8587232C3DFF00A7ED3A /* Build configuration list for PBXProject "appleBoxes" */ = {
+		C3189D5023340ABA00A877D5 /* Build configuration list for PBXProject "appleBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3DC8591232C3DFF00A7ED3A /* Debug */,
-				C3DC8592232C3DFF00A7ED3A /* Release */,
+				C3189D5A23340ABA00A877D5 /* Debug */,
+				C3189D5B23340ABA00A877D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3DC8593232C3DFF00A7ED3A /* Build configuration list for PBXNativeTarget "appleBoxes" */ = {
+		C3189D5C23340ABA00A877D5 /* Build configuration list for PBXNativeTarget "appleBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3DC8594232C3DFF00A7ED3A /* Debug */,
-				C3DC8595232C3DFF00A7ED3A /* Release */,
+				C3189D5D23340ABA00A877D5 /* Debug */,
+				C3189D5E23340ABA00A877D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C3DC8584232C3DFF00A7ED3A /* Project object */;
+	rootObject = C3189D4D23340ABA00A877D5 /* Project object */;
 }
