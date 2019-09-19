@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3189D5923340ABA00A877D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3189D5823340ABA00A877D5 /* main.m */; };
+		C3E81DD023340AED0055FAC9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E81DCF23340AED0055FAC9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C3189D5323340ABA00A877D5 /* CopyFiles */ = {
+		C3E81DCA23340AED0055FAC9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C3189D5523340ABA00A877D5 /* appleBoxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appleBoxes; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3189D5823340ABA00A877D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E81DCC23340AED0055FAC9 /* AppleBoxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleBoxes; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E81DCF23340AED0055FAC9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3189D5223340ABA00A877D5 /* Frameworks */ = {
+		C3E81DC923340AED0055FAC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C3189D4C23340ABA00A877D5 = {
+		C3E81DC323340AED0055FAC9 = {
 			isa = PBXGroup;
 			children = (
-				C3189D5723340ABA00A877D5 /* appleBoxes */,
-				C3189D5623340ABA00A877D5 /* Products */,
+				C3E81DCE23340AED0055FAC9 /* AppleBoxes */,
+				C3E81DCD23340AED0055FAC9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C3189D5623340ABA00A877D5 /* Products */ = {
+		C3E81DCD23340AED0055FAC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3189D5523340ABA00A877D5 /* appleBoxes */,
+				C3E81DCC23340AED0055FAC9 /* AppleBoxes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3189D5723340ABA00A877D5 /* appleBoxes */ = {
+		C3E81DCE23340AED0055FAC9 /* AppleBoxes */ = {
 			isa = PBXGroup;
 			children = (
-				C3189D5823340ABA00A877D5 /* main.m */,
+				C3E81DCF23340AED0055FAC9 /* main.swift */,
 			);
-			path = appleBoxes;
+			path = AppleBoxes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3189D5423340ABA00A877D5 /* appleBoxes */ = {
+		C3E81DCB23340AED0055FAC9 /* AppleBoxes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3189D5C23340ABA00A877D5 /* Build configuration list for PBXNativeTarget "appleBoxes" */;
+			buildConfigurationList = C3E81DD323340AED0055FAC9 /* Build configuration list for PBXNativeTarget "AppleBoxes" */;
 			buildPhases = (
-				C3189D5123340ABA00A877D5 /* Sources */,
-				C3189D5223340ABA00A877D5 /* Frameworks */,
-				C3189D5323340ABA00A877D5 /* CopyFiles */,
+				C3E81DC823340AED0055FAC9 /* Sources */,
+				C3E81DC923340AED0055FAC9 /* Frameworks */,
+				C3E81DCA23340AED0055FAC9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = appleBoxes;
-			productName = appleBoxes;
-			productReference = C3189D5523340ABA00A877D5 /* appleBoxes */;
+			name = AppleBoxes;
+			productName = AppleBoxes;
+			productReference = C3E81DCC23340AED0055FAC9 /* AppleBoxes */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C3189D4D23340ABA00A877D5 /* Project object */ = {
+		C3E81DC423340AED0055FAC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Tom Grant";
 				TargetAttributes = {
-					C3189D5423340ABA00A877D5 = {
+					C3E81DCB23340AED0055FAC9 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = C3189D5023340ABA00A877D5 /* Build configuration list for PBXProject "appleBoxes" */;
+			buildConfigurationList = C3E81DC723340AED0055FAC9 /* Build configuration list for PBXProject "AppleBoxes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C3189D4C23340ABA00A877D5;
-			productRefGroup = C3189D5623340ABA00A877D5 /* Products */;
+			mainGroup = C3E81DC323340AED0055FAC9;
+			productRefGroup = C3E81DCD23340AED0055FAC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3189D5423340ABA00A877D5 /* appleBoxes */,
+				C3E81DCB23340AED0055FAC9 /* AppleBoxes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3189D5123340ABA00A877D5 /* Sources */ = {
+		C3E81DC823340AED0055FAC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3189D5923340ABA00A877D5 /* main.m in Sources */,
+				C3E81DD023340AED0055FAC9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C3189D5A23340ABA00A877D5 /* Debug */ = {
+		C3E81DD123340AED0055FAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,10 +182,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C3189D5B23340ABA00A877D5 /* Release */ = {
+		C3E81DD223340AED0055FAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,51 +235,55 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		C3189D5D23340ABA00A877D5 /* Debug */ = {
+		C3E81DD423340AED0055FAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9HWXFL59V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		C3189D5E23340ABA00A877D5 /* Release */ = {
+		C3E81DD523340AED0055FAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9HWXFL59V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3189D5023340ABA00A877D5 /* Build configuration list for PBXProject "appleBoxes" */ = {
+		C3E81DC723340AED0055FAC9 /* Build configuration list for PBXProject "AppleBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3189D5A23340ABA00A877D5 /* Debug */,
-				C3189D5B23340ABA00A877D5 /* Release */,
+				C3E81DD123340AED0055FAC9 /* Debug */,
+				C3E81DD223340AED0055FAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3189D5C23340ABA00A877D5 /* Build configuration list for PBXNativeTarget "appleBoxes" */ = {
+		C3E81DD323340AED0055FAC9 /* Build configuration list for PBXNativeTarget "AppleBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3189D5D23340ABA00A877D5 /* Debug */,
-				C3189D5E23340ABA00A877D5 /* Release */,
+				C3E81DD423340AED0055FAC9 /* Debug */,
+				C3E81DD523340AED0055FAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C3189D4D23340ABA00A877D5 /* Project object */;
+	rootObject = C3E81DC423340AED0055FAC9 /* Project object */;
 }
