@@ -8,14 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
 
 func increaseNumberRoundness(n: Int) -> Bool {
-    
-    return n % 10 == 0 ? increaseNumberRoundness( n: n / 10) :String( n ).contains("0")
+    return String(n).range(of: "0[1-9]", options: .regularExpression ) != nil
 }
 
 let n = 1022220
 let r = increaseNumberRoundness(n:n)
 
 print( r )
+
