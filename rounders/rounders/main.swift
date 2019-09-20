@@ -9,28 +9,16 @@
 import Foundation
 
 func rounders(n: Int) -> Int {
-    var n = n
-    var digits = 10
     
-    repeat {
-       
-        //remove and round
-        var (q,r) = n.quotientAndRemainder(dividingBy: digits)
-        
-        if  r*10 / digits * 10  >= 5  {
-            q += 1
-        }
-        
-        n = q * digits
-        
-        print( n, q, r, digits )
-        
-        digits *= 10
-        
-    } while digits < n
+    guard n >= 1 else { return n }
     
+    let length = Double( Int( log10(Double(n) ) ) )
     
-    return n
+    let tens = Double( Int(pow( 10.0, length ) ) )
+    
+    let decimal = Int( round( Double(n) / tens ) * tens )
+    
+    return decimal
 }
 
 
