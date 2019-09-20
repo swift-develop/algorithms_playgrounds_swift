@@ -10,19 +10,20 @@ import Foundation
 
 func rounders(n: Int) -> Int {
     
-    guard n >= 1 else { return n }
+    var count = 0
     
-    let length = Double( Int( log10(Double(n) ) ) )
+    repeat {
+        
+        
+        
+        count += 1
+    } while n > 10
     
-    let tens = Double( Int(pow( 10.0, length ) ) )
     
-    let decimal = Int( round( Double(n) / tens ) * tens )
-    
-    return decimal
 }
 
 
-let n = 15
+let n = 1
 
 let result = rounders(n:n)
 
