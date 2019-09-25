@@ -10,16 +10,18 @@ import Foundation
 
 func rounders(n: Int) -> Int {
     
-    var count = 0
-    
+    var count = 1
+    var n = n
     repeat {
-        
-        
-        
+        let carry = n % 10 >= 5 ? 1 : 0
+        n /= 10
+        n += carry
         count += 1
     } while n > 10
     
+    n *= Int( pow( 10.0, Double(count - 1) ) )
     
+    return n == 0 ? 1 : n
 }
 
 
