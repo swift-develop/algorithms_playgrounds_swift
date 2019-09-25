@@ -1,0 +1,17 @@
+def fixMessage(message):
+    return message.capitalize()
+
+
+def catWalk(code):
+    return " ".join(code.split())
+
+message = "you'll NEVER believe what that 'FrIeNd' of mine did!!1"
+result = fixMessage(message)
+
+#print( result )
+
+line = "def      m   e  gaDifficu     ltFun        ction(x):"
+
+result2 = catWalk( line)
+
+print( result2 )
