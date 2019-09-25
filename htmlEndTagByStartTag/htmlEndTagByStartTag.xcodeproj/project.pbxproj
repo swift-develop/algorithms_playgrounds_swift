@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C37473AE233D0AA9000F4399 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37473AD233D0AA9000F4399 /* main.swift */; };
+		C37473C1233D6A94000F4399 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37473C0233D6A94000F4399 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C37473A8233D0AA9000F4399 /* CopyFiles */ = {
+		C37473BB233D6A94000F4399 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C37473AA233D0AA9000F4399 /* findEmailDomain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = findEmailDomain; sourceTree = BUILT_PRODUCTS_DIR; };
-		C37473AD233D0AA9000F4399 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C37473BD233D6A94000F4399 /* htmlEndTagByStartTag */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = htmlEndTagByStartTag; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37473C0233D6A94000F4399 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C37473A7233D0AA9000F4399 /* Frameworks */ = {
+		C37473BA233D6A94000F4399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C37473A1233D0AA9000F4399 = {
+		C37473B4233D6A94000F4399 = {
 			isa = PBXGroup;
 			children = (
-				C37473AC233D0AA9000F4399 /* findEmailDomain */,
-				C37473AB233D0AA9000F4399 /* Products */,
+				C37473BF233D6A94000F4399 /* htmlEndTagByStartTag */,
+				C37473BE233D6A94000F4399 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C37473AB233D0AA9000F4399 /* Products */ = {
+		C37473BE233D6A94000F4399 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C37473AA233D0AA9000F4399 /* findEmailDomain */,
+				C37473BD233D6A94000F4399 /* htmlEndTagByStartTag */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C37473AC233D0AA9000F4399 /* findEmailDomain */ = {
+		C37473BF233D6A94000F4399 /* htmlEndTagByStartTag */ = {
 			isa = PBXGroup;
 			children = (
-				C37473AD233D0AA9000F4399 /* main.swift */,
+				C37473C0233D6A94000F4399 /* main.swift */,
 			);
-			path = findEmailDomain;
+			path = htmlEndTagByStartTag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C37473A9233D0AA9000F4399 /* findEmailDomain */ = {
+		C37473BC233D6A94000F4399 /* htmlEndTagByStartTag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C37473B1233D0AA9000F4399 /* Build configuration list for PBXNativeTarget "findEmailDomain" */;
+			buildConfigurationList = C37473C4233D6A94000F4399 /* Build configuration list for PBXNativeTarget "htmlEndTagByStartTag" */;
 			buildPhases = (
-				C37473A6233D0AA9000F4399 /* Sources */,
-				C37473A7233D0AA9000F4399 /* Frameworks */,
-				C37473A8233D0AA9000F4399 /* CopyFiles */,
+				C37473B9233D6A94000F4399 /* Sources */,
+				C37473BA233D6A94000F4399 /* Frameworks */,
+				C37473BB233D6A94000F4399 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = findEmailDomain;
-			productName = findEmailDomain;
-			productReference = C37473AA233D0AA9000F4399 /* findEmailDomain */;
+			name = htmlEndTagByStartTag;
+			productName = htmlEndTagByStartTag;
+			productReference = C37473BD233D6A94000F4399 /* htmlEndTagByStartTag */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C37473A2233D0AA9000F4399 /* Project object */ = {
+		C37473B5233D6A94000F4399 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Tom Grant";
 				TargetAttributes = {
-					C37473A9233D0AA9000F4399 = {
+					C37473BC233D6A94000F4399 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = C37473A5233D0AA9000F4399 /* Build configuration list for PBXProject "findEmailDomain" */;
+			buildConfigurationList = C37473B8233D6A94000F4399 /* Build configuration list for PBXProject "htmlEndTagByStartTag" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C37473A1233D0AA9000F4399;
-			productRefGroup = C37473AB233D0AA9000F4399 /* Products */;
+			mainGroup = C37473B4233D6A94000F4399;
+			productRefGroup = C37473BE233D6A94000F4399 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C37473A9233D0AA9000F4399 /* findEmailDomain */,
+				C37473BC233D6A94000F4399 /* htmlEndTagByStartTag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C37473A6233D0AA9000F4399 /* Sources */ = {
+		C37473B9233D6A94000F4399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37473AE233D0AA9000F4399 /* main.swift in Sources */,
+				C37473C1233D6A94000F4399 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C37473AF233D0AA9000F4399 /* Debug */ = {
+		C37473C2233D6A94000F4399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		C37473B0233D0AA9000F4399 /* Release */ = {
+		C37473C3233D6A94000F4399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		C37473B2233D0AA9000F4399 /* Debug */ = {
+		C37473C5233D6A94000F4399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		C37473B3233D0AA9000F4399 /* Release */ = {
+		C37473C6233D6A94000F4399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C37473A5233D0AA9000F4399 /* Build configuration list for PBXProject "findEmailDomain" */ = {
+		C37473B8233D6A94000F4399 /* Build configuration list for PBXProject "htmlEndTagByStartTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C37473AF233D0AA9000F4399 /* Debug */,
-				C37473B0233D0AA9000F4399 /* Release */,
+				C37473C2233D6A94000F4399 /* Debug */,
+				C37473C3233D6A94000F4399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C37473B1233D0AA9000F4399 /* Build configuration list for PBXNativeTarget "findEmailDomain" */ = {
+		C37473C4233D6A94000F4399 /* Build configuration list for PBXNativeTarget "htmlEndTagByStartTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C37473B2233D0AA9000F4399 /* Debug */,
-				C37473B3233D0AA9000F4399 /* Release */,
+				C37473C5233D6A94000F4399 /* Debug */,
+				C37473C6233D6A94000F4399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C37473A2233D0AA9000F4399 /* Project object */;
+	rootObject = C37473B5233D6A94000F4399 /* Project object */;
 }

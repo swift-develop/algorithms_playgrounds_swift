@@ -32,14 +32,14 @@ func isMAC48Address(inputString: String) -> Bool {
     print( inputString.count )
     
     //need to tighten up my regex so i dont need to count chars
-    return inputString.count == 17 && inputString.range(of: "^[a-fA-F0-9:]{17}|[a-fA-F0-9]{12}$", options: .regularExpression ) != nil
+    return inputString.count == 17 && inputString.range(of: "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$", options: .regularExpression ) != nil
 }
 
 
 
 //let inputString = "a0-1B-63-84-45-E6"
 //let inputString = "23-25-E4-39-40-11-"
-let inputString =   ":::::::::::::::::"
+let inputString =   "00-1B-63-84-45-E6"
 
 
 let result = isMAC48Address(inputString: inputString)
