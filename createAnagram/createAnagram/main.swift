@@ -10,15 +10,22 @@ import Foundation
 
 func createAnagram(s: String, t: String) -> Int {
 
-    var hash = [Character:Int]()
-    hash = s.reduce(into: hash ) {  $0[$1] = ($0[$1] ?? 0 ) + 1}
-    hash = t.reduce(into: hash ) {  $0[$1] = ($0[$1] ?? 0 ) - 1}
+//    var hash = [Character:Int]()
+//    hash = s.reduce(into: hash ) {  $0[$1] = ($0[$1] ?? 0 ) + 1}
+//    hash = t.reduce(into: hash ) {  $0[$1] = ($0[$1] ?? 0 ) - 1}
+//
+//    let swaps = hash.reduce(0) { $0 + abs( $1.value ) } / 2
+//
     
-    let swaps = hash.reduce(0) { $0 + abs( $1.value ) } / 2
+    var t = t
+    s.forEach { (c) in
+        if let index = t.firstIndex(of: c ) {
+            t.remove(at: index )
+        }
+    }
     
-    return swaps
+    return t.count
 }
-
 
 let s = "AABAA"
 let t = "BBAAA"
