@@ -17,7 +17,7 @@ func isBeautifulString(inputString: String) -> Bool {
             d[c] = 1
         } else {
             //really hate using the !, but perhaps there is a better way?
-            d[c]! += 1
+            d[c]! += 1  /// yes use if let
         }
     }
     
